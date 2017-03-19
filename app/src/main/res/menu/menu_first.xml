@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create"
+        android:title="@string/fragment_master_action_create"
+        android:icon="@drawable/ic_action_create"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/fragment_detal_action_about"
+        android:icon="@drawable/ic_action_about"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/fragment_detal_action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="withText" />
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Korisničke notifikacije"
+        android:key="sync_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notif_toast"
+            android:summary="Prikazivanje obavestenja kao Toast poruka"
+            android:title="Toast prikaz poruke" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notif_status"
+            android:summary="Prikazivanje obavestenja kao Notification poruka"
+            android:title="Notification prikaz poruke" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
